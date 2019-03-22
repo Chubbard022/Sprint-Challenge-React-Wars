@@ -23,11 +23,12 @@
   justify-content: center;
 }
 .characterAttribute{
-  border:1px solid black;
   width:40%;
-  margin: 5px;
+  margin: 7px;
 }
 .characterAttribute.title{
   background-color:rgb(229, 210, 188);
   border-radius: 5px;
+  border:1px solid black;
+  font-size: 25px;
 }
