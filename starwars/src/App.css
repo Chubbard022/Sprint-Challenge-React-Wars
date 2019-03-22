@@ -1,8 +1,25 @@
 .App {
   text-align: center;
+  border:5px solid blue;
 }
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 50px;
 }
 /* write your parent styles in here for your App.js */
+.starWarsCard{
+  border:2px solid black;
+  margin:10px;
+  background-color:rgb(235, 169, 94);
+  width: 33%;
+  border-radius: 10px;
+}
+.starWarsHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.characterAttribute{
+  border:1px solid black
+}
