@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  border:5px solid blue;
 }
 .Header {
   color: #443e3e;
@@ -14,6 +13,9 @@
   background-color:rgb(235, 169, 94);
   width: 33%;
   border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .starWarsHolder{
   display: flex;
@@ -21,5 +23,11 @@
   justify-content: center;
 }
 .characterAttribute{
-  border:1px solid black
+  border:1px solid black;
+  width:40%;
+  margin: 5px;
+}
+.characterAttribute.title{
+  background-color:rgb(229, 210, 188);
+  border-radius: 5px;
 }
