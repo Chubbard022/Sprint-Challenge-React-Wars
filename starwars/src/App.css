@@ -23,12 +23,18 @@
   justify-content: center;
 }
 .characterAttribute{
-  width:40%;
+  width:30%;
   margin: 7px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color:rgb(144, 122, 98);
+  color:rgb(255, 213, 164);
 }
 .characterAttribute.title{
   background-color:rgb(229, 210, 188);
   border-radius: 5px;
   border:1px solid black;
   font-size: 25px;
+  width:50%;
+  color:black;
 }
