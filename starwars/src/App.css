@@ -4,5 +4,37 @@
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
+  font-size: 50px;
 }
 /* write your parent styles in here for your App.js */
+.starWarsCard{
+  border:2px solid black;
+  margin:10px;
+  background-color:rgb(235, 169, 94);
+  width: 33%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.starWarsHolder{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.characterAttribute{
+  width:30%;
+  margin: 7px;
+  border:1px solid black;
+  border-radius: 5px;
+  background-color:rgb(144, 122, 98);
+  color:rgb(229, 210, 188);
+}
+.characterAttribute.title{
+  background-color:rgb(229, 210, 188);
+  border-radius: 5px;
+  border:1px solid black;
+  font-size: 25px;
+  width:50%;
+  color:black;
+}
